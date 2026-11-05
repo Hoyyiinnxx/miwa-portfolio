@@ -528,11 +528,11 @@ section{padding:4.2rem 0}
 
 <section id="work"><div class="wrap">
 <h2>Featured projects.</h2>
-<p class="lead">Two websites I designed and built from scratch. Hover a preview to explore the live site.</p>
+<p class="lead">Three websites I designed and built from scratch. Hover a preview to explore the live site.</p>
 <div class="work">
 <article class="proj" data-t="web"><div class="thumb live" data-url="https://toms-frontend-apar.vercel.app/" data-name="Miwa Tech Hub" style="--k:var(--c1)"><span class="lbl">Miwa Tech Hub</span><iframe src="https://toms-frontend-apar.vercel.app/" title="Live preview of the Miwa Tech Hub website" loading="lazy" tabindex="-1" aria-hidden="true"></iframe><span class="chip">Live site · hover to expand</span></div><div class="body"><span class="tag">Online store · Live</span><h3>Miwa Tech Hub</h3><p>A laptop store for HP, Dell, Lenovo and Apple, designed and built end to end.</p><ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul><ul class="did"><li>Budget picker, brand shortcuts and sorting</li><li>Working cart</li><li>Pay-on-delivery checkout confirmed over WhatsApp</li></ul><div class="actions"><button class="btn p openpv" type="button">Live preview</button></div></div></article>
 <article class="proj" data-t="web"><div class="thumb live" data-url="https://hhotel-code.vercel.app/" data-name="Miwa Suites" style="--k:var(--c4)"><span class="lbl">Miwa Suites</span><iframe src="https://hhotel-code.vercel.app/" title="Live preview of the Miwa Suites website" loading="lazy" tabindex="-1" aria-hidden="true"></iframe><span class="chip">Live site · hover to expand</span></div><div class="body"><span class="tag">Hotel website · Live</span><h3>Miwa Suites</h3><p>A warm beige-and-brown website for a hotel in Victoria Island, Lagos.</p><ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul><ul class="did"><li>Five room categories with listings</li><li>Clean three-file frontend</li><li>Contact details built in</li></ul><div class="actions"><button class="btn p openpv" type="button">Live preview</button></div></div></article>
-<article class="proj next"><span class="tag">Next up</span><h3>Your website could be here.</h3><p>Let’s design and build it together.</p><a class="btn p" href="#contact">Start a project</a></article>
+<article class="proj" data-t="web"><div class="thumb live" data-url="https://ile-estates.vercel.app/" data-name="Ilé Estates" style="--k:var(--c3)"><span class="lbl">Ilé Estates</span><iframe src="https://ile-estates.vercel.app/" title="Live preview of the Ilé Estates website" loading="lazy" tabindex="-1" aria-hidden="true"></iframe><span class="chip">Live site · hover to expand</span></div><div class="body"><span class="tag">Real estate website · Live</span><h3>Ilé Estates</h3><p>A white-and-champagne-gold property site for luxury homes across Lagos.</p><ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Leaflet maps</li><li>Vercel</li></ul><ul class="did"><li>25 listings with filters, map view and saved homes</li><li>Property pages with a photo gallery and fullscreen viewer</li><li>WhatsApp enquiries pre-filled with the listing</li></ul><div class="actions"><button class="btn p openpv" type="button">Live preview</button></div></div></article>
 </div></div></section>
 
 <section id="process"><div class="wrap">
@@ -696,7 +696,7 @@ if(!fine){var cp=th.querySelector(".chip");if(cp)cp.textContent="Live site · ta
 th.addEventListener("click",go);
 if(fine){th.addEventListener("pointerenter",function(){clearTimeout(xin);xin=setTimeout(function(){xopen(th,false)},220)});th.addEventListener("pointerleave",function(){clearTimeout(xin)})}
 var bt=th.closest(".proj").querySelector(".openpv");if(bt){if(!fine)bt.textContent="Open live site";bt.addEventListener("click",go)}});
-if(!fine){var wl=document.querySelector("#work .lead");if(wl)wl.textContent="Two websites I designed and built from scratch. Tap a preview to open the live site."}
+if(!fine){var wl=document.querySelector("#work .lead");if(wl)wl.textContent="Three websites I designed and built from scratch. Tap a preview to open the live site."}
 document.addEventListener("pointermove",function(e){px=e.clientX;py=e.clientY;if(xst==="open")xchk()});
 document.getElementById("xpx").onclick=xclose;xpb.addEventListener("click",xclose);
 addEventListener("keydown",function(e){if(e.key==="Escape")xclose()});
